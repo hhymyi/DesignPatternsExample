@@ -1,4 +1,4 @@
-package create.Prototype;
+package create.prototype;
 
 class Prototype implements Cloneable {
     @Override

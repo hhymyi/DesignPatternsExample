@@ -1,0 +1,20 @@
+package structure.decorator.humburger;
+
+public class Lettuce extends Condiment {
+    Humburger humburger;
+
+    public Lettuce(Humburger humburger){
+        this.humburger = humburger;
+    }
+
+    @Override
+    public String getName() {
+        System.out.println("加入生菜");
+        return humburger.getName()+" 加生菜";
+    }
+
+    @Override
+    public double getPrice() {
+        return humburger.getPrice()+1.5;
+    }
+}

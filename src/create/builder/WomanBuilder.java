@@ -1,4 +1,4 @@
-package create.Builder;
+package create.builder;
 
 public class WomanBuilder implements PersonBuilder {
     Person person;
