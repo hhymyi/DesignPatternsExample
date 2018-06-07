@@ -1,0 +1,13 @@
+package tactics.command;
+
+public class CommandOn implements Command {
+    private Tv myTv;
+
+    public CommandOn(Tv tv) {
+        myTv = tv;
+    }
+
+    public void execute() {
+        myTv.turnOn();
+    }
+}
